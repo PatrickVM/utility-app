@@ -34,4 +34,11 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-./drizzle-config.ts
+# Ignore drizzle.config.ts file
+drizzle.config.ts
+
+# Ignore lib folder inside src/app
+src/app/lib/
+
+#Ignore api folder
+src/app/api
